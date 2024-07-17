@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+body{
+    background-color: #FDF5DF;
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-content: center;
+    background-color: #5EBEC4;
+}
+
+.main{
+    width: 90%;
+    margin: auto;
+}
+.data{
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.temp-weather{
+    display: flex;
+    justify-content: space-evenly;
+}
+.temp,
+.weather,
+.humidity,
+.speed
+{
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.cityname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.weatherlogo{
+    width: 100%;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.weatherlogo{
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid black; */
+}
+
+.humidity-speed{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.humidity-speed-logo{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.humidity-logo{
+    background-image: url('humi-logo.png');
+    background-repeat: no-repeat;;
+    background-position: center;
+    background-size: contain;
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+.speed-logo{
+    background-image: url('speed-logo.png');
+    background-repeat: no-repeat;;
+    background-position: center;
+    background-size: contain;
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.inp{
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 60px;
+    padding: 1px 10px;
+    border: none;
+    width: 50%;
+}
+.btn{
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    padding: 1px 10px;
+}
